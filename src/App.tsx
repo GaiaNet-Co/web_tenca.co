@@ -46,18 +46,17 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => navigateTo('Home')}>
-              <img src="https://tenca.co/wp-content/uploads/2026/03/site_logo_bsky-tenca-69a94273aecec.png" alt="tenca logo" className="h-10 w-auto" />
+              <img src="/images/logo.png" alt="tenca logo" className="h-10 w-auto" />
             </div>
-            
+
             {/* Desktop Nav */}
             <nav className="hidden md:flex space-x-8">
               {['Home', 'ゆるりら', '個人セッション', '美加式メソッド', 'レイキ', 'お問合せ'].map((item) => (
-                <button 
-                  key={item} 
+                <button
+                  key={item}
                   onClick={() => navigateTo(item)}
-                  className={`text-sm font-medium transition-colors ${
-                    currentPage === item ? 'opacity-100 font-bold border-b-2 border-current' : 'opacity-70 hover:opacity-100'
-                  } ${activeTheme.classes.navLink}`}
+                  className={`text-sm font-medium transition-colors ${currentPage === item ? 'opacity-100 font-bold border-b-2 border-current' : 'opacity-70 hover:opacity-100'
+                    } ${activeTheme.classes.navLink}`}
                 >
                   {item}
                 </button>
@@ -81,9 +80,8 @@ export default function App() {
                 <button
                   key={item}
                   onClick={() => navigateTo(item)}
-                  className={`block w-full text-left px-3 py-4 rounded-md text-base font-medium ${
-                    currentPage === item ? 'bg-black/5 font-bold' : ''
-                  }`}
+                  className={`block w-full text-left px-3 py-4 rounded-md text-base font-medium ${currentPage === item ? 'bg-black/5 font-bold' : ''
+                    }`}
                 >
                   {item}
                 </button>
@@ -106,8 +104,8 @@ export default function App() {
           </div>
           <nav className="flex flex-wrap justify-center gap-6">
             {['Home', 'ゆるりら', '個人セッション', '美加式メソッド', 'レイキ', 'お問合せ'].map((item) => (
-              <button 
-                key={item} 
+              <button
+                key={item}
                 onClick={() => navigateTo(item)}
                 className={`text-sm opacity-80 hover:opacity-100 transition-opacity`}
               >

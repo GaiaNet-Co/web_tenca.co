@@ -12,7 +12,7 @@ export default function ContactPage({ activeTheme }: Props) {
     <>
       <section className={`relative py-32 px-4 sm:px-6 lg:px-8 text-center transition-colors duration-500 overflow-hidden ${activeTheme.classes.hero}`}>
         <div className="absolute inset-0 z-0">
-          <ImagePlaceholder src="/images/contact.1.png" fallbackKeyword="letter,desk,plant" className="w-full h-full object-cover opacity-40" alt="お問合せ 背景" />
+          <ImagePlaceholder src="/images/contact.1.jpg" fallbackKeyword="letter,desk,plant" className="w-full h-full object-cover opacity-70" alt="お問合せ 背景" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <Mail className="mx-auto mb-6 opacity-70 text-[#FFFFF0]" size={40} />

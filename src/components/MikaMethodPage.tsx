@@ -12,7 +12,7 @@ export default function MikaMethodPage({ activeTheme }: Props) {
     <>
       <section className={`relative py-32 px-4 sm:px-6 lg:px-8 text-center transition-colors duration-500 overflow-hidden ${activeTheme.classes.hero}`}>
         <div className="absolute inset-0 z-0">
-          <ImagePlaceholder src="/images/mikamethod.1.png" fallbackKeyword="yoga,nature" className="w-full h-full object-cover opacity-40" alt="美加式メソッド 背景" />
+          <ImagePlaceholder src="/images/mikamethod.1.jpg" fallbackKeyword="yoga,nature" className="w-full h-full object-cover opacity-70" alt="美加式メソッド 背景" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <Sparkles className="mx-auto mb-6 opacity-70 text-[#FFFFF0]" size={40} />
@@ -39,7 +39,7 @@ export default function MikaMethodPage({ activeTheme }: Props) {
               簡単な身体の動かし方、呼吸法、意識の向け方などを体系的にお伝えします。
             </p>
             <div className="my-12 rounded-2xl overflow-hidden shadow-lg">
-              <ImagePlaceholder src="/images/mikamethod.2.png" fallbackKeyword="stretching,sunlight" className="w-full h-64 object-cover" alt="セルフケア風景" />
+              <ImagePlaceholder src="/images/mikamethod.2.jpg" fallbackKeyword="stretching,sunlight" className="w-full h-64 object-cover" alt="セルフケア風景" />
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function MikaMethodPage({ activeTheme }: Props) {
           <h2 className={`text-2xl md:text-3xl font-bold mb-12 text-center pb-4 border-b-2 inline-block mx-auto ${activeTheme.classes.heading}`}>
             講座・レッスン
           </h2>
-          
+
           <div className="grid grid-cols-1 gap-12">
             {/* セルフメンテナンス */}
             <div className={`overflow-hidden border transition-colors duration-500 flex flex-col md:flex-row ${activeTheme.classes.card}`}>
@@ -68,7 +68,7 @@ export default function MikaMethodPage({ activeTheme }: Props) {
                 </div>
               </div>
               <div className="md:w-1/2 h-64 md:h-auto">
-                <ImagePlaceholder src="/images/mikamethod.self.png" fallbackKeyword="woman,stretching,outdoor" className="w-full h-full object-cover" alt="セルフメンテナンス" />
+                <ImagePlaceholder src="/images/mikamethod.self.jpg" fallbackKeyword="woman,stretching,outdoor" className="w-full h-full object-cover" alt="セルフメンテナンス" />
               </div>
             </div>
 
@@ -88,7 +88,7 @@ export default function MikaMethodPage({ activeTheme }: Props) {
                 </div>
               </div>
               <div className="md:w-1/2 h-64 md:h-auto">
-                <ImagePlaceholder src="/images/mikamethod.cranial.png" fallbackKeyword="head,massage,relax" className="w-full h-full object-cover" alt="頭蓋骨調整" />
+                <ImagePlaceholder src="/images/mikamethod.cranial.jpg" fallbackKeyword="head,massage,relax" className="w-full h-full object-cover" alt="頭蓋骨調整" />
               </div>
             </div>
 
@@ -108,7 +108,7 @@ export default function MikaMethodPage({ activeTheme }: Props) {
                 </div>
               </div>
               <div className="md:w-1/2 h-64 md:h-auto">
-                <ImagePlaceholder src="/images/mikamethod.body.png" fallbackKeyword="meditation,incense,relax" className="w-full h-full object-cover" alt="ボディベーシック" />
+                <ImagePlaceholder src="/images/mikamethod.body.jpg" fallbackKeyword="meditation,incense,relax" className="w-full h-full object-cover" alt="ボディベーシック" />
               </div>
             </div>
 

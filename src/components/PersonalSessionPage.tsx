@@ -12,7 +12,7 @@ export default function PersonalSessionPage({ activeTheme }: Props) {
     <>
       <section className={`relative py-32 px-4 sm:px-6 lg:px-8 text-center transition-colors duration-500 overflow-hidden ${activeTheme.classes.hero}`}>
         <div className="absolute inset-0 z-0">
-          <ImagePlaceholder src="/images/personalsession.1.png" fallbackKeyword="conversation,warm" className="w-full h-full object-cover opacity-40" alt="個人セッション 背景" />
+          <ImagePlaceholder src="/images/personalsession.1.jpg" fallbackKeyword="conversation,warm" className="w-full h-full object-cover opacity-70" alt="個人セッション 背景" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <MessageCircle className="mx-auto mb-6 opacity-70 text-[#FFFFF0]" size={40} />
@@ -39,7 +39,7 @@ export default function PersonalSessionPage({ activeTheme }: Props) {
               ただ話を聴くだけでなく、エネルギーの状態を読み取りながら、あなた自身が気づいていない「本当の望み」や「手放すべきブロック」を紐解いていきます。
             </p>
             <div className="my-12 rounded-2xl overflow-hidden shadow-lg">
-              <ImagePlaceholder src="/images/personalsession.2.png" fallbackKeyword="tea,relaxing" className="w-full h-64 object-cover" alt="対話風景" />
+              <ImagePlaceholder src="/images/personalsession.2.jpg" fallbackKeyword="tea,relaxing" className="w-full h-64 object-cover" alt="対話風景" />
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function PersonalSessionPage({ activeTheme }: Props) {
           <h2 className={`text-2xl md:text-3xl font-bold mb-12 text-center pb-4 border-b-2 inline-block mx-auto ${activeTheme.classes.heading}`}>
             メニュー詳細
           </h2>
-          
+
           <div className={`p-8 border transition-colors duration-500 ${activeTheme.classes.card}`}>
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
               <div>
@@ -62,7 +62,7 @@ export default function PersonalSessionPage({ activeTheme }: Props) {
                 <p className="text-sm opacity-70">60分</p>
               </div>
             </div>
-            
+
             <div className="space-y-4 opacity-90">
               <p>
                 遠方の方や、ご自宅からリラックスして受けたい方におすすめです。<br />

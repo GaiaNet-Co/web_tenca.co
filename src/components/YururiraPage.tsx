@@ -13,7 +13,7 @@ export default function YururiraPage({ activeTheme }: Props) {
       {/* Hero Section */}
       <section className={`relative py-32 px-4 sm:px-6 lg:px-8 text-center transition-colors duration-500 overflow-hidden ${activeTheme.classes.hero}`}>
         <div className="absolute inset-0 z-0">
-          <ImagePlaceholder src="/images/yururira.1.png" fallbackKeyword="spa,relax" className="w-full h-full object-cover opacity-40" alt="ゆるりら 背景" />
+          <ImagePlaceholder src="/images/yururira.1.jpg" fallbackKeyword="spa,relax" className="w-full h-full object-cover opacity-70" alt="ゆるりら 背景" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <Leaf className="mx-auto mb-6 opacity-70 text-[#FFFFF0]" size={40} />
@@ -44,7 +44,7 @@ export default function YururiraPage({ activeTheme }: Props) {
               さらに、頭や神経の緊張をゆるめることで思考のクセや無意識の力みをほどき、エネルギーの滞りや乱れにも働きかけながら、全体のバランスを整えていきます。
             </p>
             <div className="my-12 rounded-2xl overflow-hidden shadow-lg">
-              <ImagePlaceholder src="/images/yururira.2.png" fallbackKeyword="massage,healing" className="w-full h-64 object-cover" alt="施術風景" />
+              <ImagePlaceholder src="/images/yururira.2.jpg" fallbackKeyword="massage,healing" className="w-full h-64 object-cover" alt="施術風景" />
             </div>
             <div className={`p-8 my-12 border transition-colors duration-500 ${activeTheme.classes.card}`}>
               <p className="text-center font-medium text-xl mb-4">
@@ -67,7 +67,7 @@ export default function YururiraPage({ activeTheme }: Props) {
           <h2 className={`text-2xl md:text-3xl font-bold mb-12 text-center pb-4 border-b-2 inline-block mx-auto ${activeTheme.classes.heading}`}>
             施術メニュー
           </h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Menu 1 */}
             <div className={`p-8 border transition-colors duration-500 flex flex-col h-full ${activeTheme.classes.card}`}>

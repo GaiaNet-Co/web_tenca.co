@@ -13,7 +13,7 @@ export default function ReikiPage({ activeTheme }: Props) {
       {/* Hero Section */}
       <section className={`relative py-32 px-4 sm:px-6 lg:px-8 text-center transition-colors duration-500 overflow-hidden ${activeTheme.classes.hero}`}>
         <div className="absolute inset-0 z-0">
-          <ImagePlaceholder src="/images/reiki.1.png" fallbackKeyword="light,sun" className="w-full h-full object-cover opacity-40" alt="レイキ 背景" />
+          <ImagePlaceholder src="/images/reiki.1.jpg" fallbackKeyword="light,sun" className="w-full h-full object-cover opacity-70" alt="レイキ 背景" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <Sun className="mx-auto mb-6 opacity-70 text-[#FFFFF0]" size={40} />
@@ -45,7 +45,7 @@ export default function ReikiPage({ activeTheme }: Props) {
               レイキヒーリングでは、この滞ったエネルギーの流れをスムーズにし、本来の自然治癒力を高めていきます。<br />
               身体の深い部分からリラックスし、心が穏やかになるのを感じていただけるでしょう。
             </p>
-            
+
             <div className="my-12 rounded-2xl overflow-hidden shadow-lg">
               <ImagePlaceholder src="/images/reiki.2.png" fallbackKeyword="hands,healing,light" className="w-full h-64 object-cover" alt="レイキヒーリング風景" />
             </div>
@@ -70,12 +70,12 @@ export default function ReikiPage({ activeTheme }: Props) {
           <h2 className={`text-2xl md:text-3xl font-bold mb-12 text-center pb-4 border-b-2 inline-block mx-auto ${activeTheme.classes.heading}`}>
             メニュー詳細
           </h2>
-          
+
           <div className="grid grid-cols-1 gap-8">
             {/* レイキ施術 */}
             <div className={`p-8 border transition-colors duration-500 ${activeTheme.classes.card}`}>
               <h3 className="text-2xl font-bold mb-6 border-b pb-4">レイキ施術</h3>
-              
+
               <div className="space-y-6">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
                   <div>
@@ -96,7 +96,7 @@ export default function ReikiPage({ activeTheme }: Props) {
                   </div>
                 </div>
               </div>
-              
+
               <div className="mt-8 space-y-4 opacity-90">
                 <p>
                   エネルギーの滞りや乱れに働きかけ、本来の流れへと整えていきます。<br />
@@ -111,7 +111,7 @@ export default function ReikiPage({ activeTheme }: Props) {
             {/* レイキ講座 */}
             <div className={`p-8 border transition-colors duration-500 ${activeTheme.classes.card}`}>
               <h3 className="text-2xl font-bold mb-6 border-b pb-4">レイキ講座</h3>
-              
+
               <div className="space-y-6">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
                   <div>
