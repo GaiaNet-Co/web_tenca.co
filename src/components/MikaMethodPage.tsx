@@ -10,18 +10,18 @@ interface Props {
 export default function MikaMethodPage({ activeTheme }: Props) {
   return (
     <>
-      <section className={`py-20 px-4 sm:px-6 lg:px-8 text-center transition-colors duration-500 ${activeTheme.classes.hero}`}>
-        <div className="max-w-4xl mx-auto">
-          <Sparkles className="mx-auto mb-6 opacity-50" size={40} />
-          <h1 className={`text-3xl md:text-5xl font-bold mb-6 leading-tight ${activeTheme.classes.heroText}`}>
+      <section className={`relative py-32 px-4 sm:px-6 lg:px-8 text-center transition-colors duration-500 overflow-hidden ${activeTheme.classes.hero}`}>
+        <div className="absolute inset-0 z-0">
+          <ImagePlaceholder src="/images/mikamethod.1.png" fallbackKeyword="yoga,nature" className="w-full h-full object-cover opacity-40" alt="美加式メソッド 背景" />
+        </div>
+        <div className="relative z-10 max-w-4xl mx-auto">
+          <Sparkles className="mx-auto mb-6 opacity-70 text-[#FFFFF0]" size={40} />
+          <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight text-[#FFFFF0] drop-shadow-md">
             美加式メソッド
           </h1>
-          <p className="text-lg md:text-xl opacity-80 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto leading-relaxed font-medium text-[#FFFFF0] drop-shadow-md">
             自分で自分を整え、本来の輝きを取り戻す
           </p>
-          <div className="mt-12 rounded-2xl overflow-hidden shadow-xl">
-            <ImagePlaceholder src="/images/mikamethod.1.png" fallbackKeyword="yoga,nature" className="w-full h-64 md:h-96 object-cover" alt="美加式メソッド イメージ" />
-          </div>
         </div>
       </section>
 
