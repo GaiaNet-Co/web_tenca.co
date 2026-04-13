@@ -265,6 +265,64 @@ export default function HomePage({ activeTheme, navigateTo }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Contact Info Section */}
+      <section className={`py-20 px-4 sm:px-6 lg:px-8 transition-colors duration-500 ${activeTheme.classes.section}`}>
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+            {/* Email */}
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 mb-6 flex items-center justify-center rounded-full bg-orange-100 text-orange-500">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 className={`text-2xl font-bold mb-4 ${activeTheme.classes.heading}`}>メール</h3>
+              <p className="opacity-80 mb-6 leading-relaxed">
+                お気軽にお問い合わせください。あなたの声をお聞きすることを楽しみにしています。
+              </p>
+              <a href="mailto:info@tenca.co" className="underline hover:opacity-80 transition-opacity">
+                info@tenca.co
+              </a>
+            </div>
+
+            {/* LINE */}
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 mb-6 flex items-center justify-center rounded-full bg-orange-100 text-orange-500">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-3.843 2.572-5.992zm-18.988-2.595c.129 0 .234.105.234.234v4.153h2.292c.129 0 .234.105.234.234v.662c0 .129-.105.234-.234.234h-3.188c-.129 0-.234-.105-.234-.234v-5.049c0-.129.105-.234.234-.234h.458zm5.188 5.283c0 .129-.105.234-.234.234h-.458c-.129 0-.234-.105-.234-.234v-5.049c0-.129.105-.234.234-.234h.458c.129 0 .234.105.234.234v5.049zm5.541 0c0 .129-.105.234-.234.234h-.458c-.129 0-.234-.105-.234-.234v-3.411l-2.292 3.486c-.055.084-.15.134-.25.134h-.386c-.129 0-.234-.105-.234-.234v-5.049c0-.129.105-.234.234-.234h.458c.129 0 .234.105.234.234v3.411l2.292-3.486c.055-.084.15-.134.25-.134h.386c.129 0 .234.105.234.234v5.049zm4.845-3.387c0 .129-.105.234-.234.234h-2.292v1.177h2.292c.129 0 .234.105.234.234v.662c0 .129-.105.234-.234.234h-2.984c-.129 0-.234-.105-.234-.234v-5.049c0-.129.105-.234.234-.234h2.984c.129 0 .234.105.234.234v.662c0 .129-.105.234-.234.234h-2.292v1.177h2.292c.129 0 .234.105.234.234v.662z"/>
+                </svg>
+              </div>
+              <h3 className={`text-2xl font-bold mb-4 ${activeTheme.classes.heading}`}>LINE公式アカウント</h3>
+              <p className="opacity-80 mb-6 leading-relaxed">
+                こちらより直接ご質問をどうぞ。お待ちしています。
+              </p>
+              <a href="#" className="underline hover:opacity-80 transition-opacity">
+                LINEで問い合わせる
+              </a>
+            </div>
+
+            {/* Salon */}
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 mb-6 flex items-center justify-center rounded-full bg-orange-100 text-orange-500">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <h3 className={`text-2xl font-bold mb-4 ${activeTheme.classes.heading}`}>サロン</h3>
+              <p className="opacity-80 mb-6 leading-relaxed">
+                リラックスした雰囲気の中、あなたをお迎えします。<br />
+                お気軽にお立ち寄りください。
+              </p>
+              <div className="opacity-80 space-y-2">
+                <p>滋賀県草津市ＸＸＸＸＸ</p>
+                <p>大阪市中央区ＸＸＸＸＸ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

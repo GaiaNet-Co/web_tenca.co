@@ -46,7 +46,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => navigateTo('Home')}>
-              <span className="text-2xl font-bold tracking-widest">tenca</span>
+              <img src="https://tenca.co/wp-content/uploads/2026/03/site_logo_bsky-tenca-69a94273aecec.png" alt="tenca logo" className="h-10 w-auto" />
             </div>
             
             {/* Desktop Nav */}
@@ -101,7 +101,9 @@ export default function App() {
       {/* Footer */}
       <footer className={`py-12 px-4 sm:px-6 lg:px-8 border-t transition-colors duration-500 ${activeTheme.classes.header}`}>
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="text-2xl font-bold tracking-widest cursor-pointer" onClick={() => navigateTo('Home')}>tenca</div>
+          <div className="cursor-pointer" onClick={() => navigateTo('Home')}>
+            <img src="https://tenca.co/wp-content/uploads/2026/03/site_logo_bsky-tenca-69a94273aecec.png" alt="tenca logo" className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity" />
+          </div>
           <nav className="flex flex-wrap justify-center gap-6">
             {['Home', 'ゆるりら', '個人セッション', '美加式メソッド', 'レイキ', 'お問合せ'].map((item) => (
               <button 
