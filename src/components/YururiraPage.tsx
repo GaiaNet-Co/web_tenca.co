@@ -34,18 +34,40 @@ export default function YururiraPage({ activeTheme }: Props) {
           </h2>
           <div className="space-y-8 text-lg leading-loose opacity-90">
             <p>
-              気づかないうちに頑張りすぎてしまい、自分の感覚や本音を後回しにしてしまうことはありませんか。<br />
+              気づかないうちに頑張りすぎてしまい、<br />
+              自分の感覚や本音を後回しにしてしまうことはありませんか。<br />
               仕事、家庭、人間関係、将来への不安——<br />
-              そうした積み重ねの中で、身体は緊張し、呼吸は浅くなり、思考や感情も滞りやすくなっていきます。
+              そうした積み重ねの中で、身体は緊張し、呼吸は浅くなり、<br />
+              思考や感情も滞りやすくなっていきます。
             </p>
             <p>
-              身体・心・エネルギーはすべてつながっており、どれかひとつではなく、全体を整えることが大切です。<br />
-              ゆるりらでは筋肉をゆるめ、骨格を整え頭部から足先まで丁寧にケアしながら身体の深い部分にアプローチしていきます。<br />
-              さらに、頭や神経の緊張をゆるめることで思考のクセや無意識の力みをほどき、エネルギーの滞りや乱れにも働きかけながら、全体のバランスを整えていきます。
+              身体・心・エネルギーはすべてつながっており、<br />
+              どれかひとつではなく、全体を整えることが大切です。<br />
+              ゆるりらでは筋肉をゆるめ、骨格を整え<br />
+              頭部から足先まで丁寧にケアしながら<br />
+              身体の深い部分にアプローチしていきます。<br />
+              さらに、頭や神経の緊張をゆるめることで<br />
+              思考のクセや無意識の力みをほどき、<br />
+              エネルギーの滞りや乱れにも働きかけながら、<br />
+              全体のバランスを整えていきます。
             </p>
             <div className="my-12 rounded-2xl overflow-hidden shadow-lg">
               <ImagePlaceholder src="/images/yururira.2.jpg" fallbackKeyword="massage,healing" className="w-full h-64 object-cover" alt="施術風景" />
             </div>
+
+            <p>
+              施術やセッションを通して<br />
+              身体がゆるみ、思考が静まり、心がひらかれていくと<br />
+              エネルギーは本来の流れを取り戻し、 内側から自然と整い、満ちていきます。<br />
+              その結果<br />
+              波動が軽やかになり、感覚がクリアになり、 自分自身とのつながりが深まっていきます。<br />
+              心が穏やかになり、<br />
+              無理をしなくても本来の自分の状態へと戻っていく。<br />
+              そして<br />
+              本当にやりたいこと、なりたい自分、魂が望む方向へ<br />
+              自然と進みやすくなっていきます。<br />
+            </p>
+
             <div className={`p-8 my-12 border transition-colors duration-500 ${activeTheme.classes.card}`}>
               <p className="text-center font-medium text-xl mb-4">
                 ゆるりらとは「ゆるっとリラックス」という意味。
@@ -80,6 +102,8 @@ export default function YururiraPage({ activeTheme }: Props) {
               <ul className="space-y-2 text-sm opacity-80 mb-8">
                 <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 慢性的な疲れ・コリを解消したい</li>
                 <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 思考のモヤモヤをスッキリさせたい</li>
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 自分を整えたい方</li>
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 変化のきっかけがほしい方に</li>
               </ul>
             </div>
 
@@ -93,7 +117,9 @@ export default function YururiraPage({ activeTheme }: Props) {
               </p>
               <ul className="space-y-2 text-sm opacity-80 mb-8">
                 <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 外出が難しい方、自宅で受けたい方</li>
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 疲れ、体が重い</li>
                 <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> エネルギーから整えたい方に</li>
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 思考もからだもスッキリしたい</li>
               </ul>
             </div>
 
@@ -105,9 +131,29 @@ export default function YururiraPage({ activeTheme }: Props) {
               <p className="opacity-80 mb-6 flex-grow">
                 頭蓋骨や頭部の調整を行い、頭や神経の緊張をゆるめていきます。思考がスッキリと静まり、顔まわりも引き締まりやすくなります。
               </p>
+              <ul className="space-y-2 text-sm opacity-80 mb-8">
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 頭の疲れ・重さ、眼精疲労</li>
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 食いしばり・緊張</li>
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> スッキリした感覚になりたい方に</li>
+              </ul>
             </div>
 
             {/* Menu 4 */}
+            <div className={`p-8 border transition-colors duration-500 flex flex-col h-full ${activeTheme.classes.card}`}>
+              <h3 className="text-xl font-bold mb-2">エネルギー調整（レイキトリートメント）</h3>
+              <p className="text-sm opacity-70 mb-4">50分 | 10,000円</p>
+              <p className="font-medium mb-4">— 見えない部分から整える —</p>
+              <p className="opacity-80 mb-6 flex-grow">
+                エネルギーの滞りや乱れに働きかけ、 本来の流れへと整えていきます。身体だけでは整えきれない部分にもアプローチし、 内側から軽やかな状態へ導きます。
+              </p>
+              <ul className="space-y-2 text-sm opacity-80 mb-8">
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 理由のわからない重さ</li>
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 流れを変えたいとき</li>
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 深い部分から整えたい方に</li>
+              </ul>
+            </div>
+
+            {/* Menu 5 */}
             <div className={`p-8 border transition-colors duration-500 flex flex-col h-full ${activeTheme.classes.card}`}>
               <h3 className="text-xl font-bold mb-2">呼吸ケア（呼吸法）</h3>
               <p className="text-sm opacity-70 mb-4">60分〜90分 | 5,000円〜10,000円</p>
@@ -115,7 +161,15 @@ export default function YururiraPage({ activeTheme }: Props) {
               <p className="opacity-80 mb-6 flex-grow">
                 ただ深呼吸をするのではなく、体の内側からゆるめて整える呼吸法です。滞っていたものが流れはじめ、体と心が一気に軽くなっていきます。
               </p>
+              <ul className="space-y-2 text-sm opacity-80 mb-8">
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 頭が重い、目の疲れやモヤモヤがある</li>
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 呼吸が浅いと感じる</li>
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> 首や肩のこりがつらい、体が重い</li>
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> なんとなく不調が続いている</li>
+                <li className="flex items-start"><ChevronRight size={16} className="mr-2 mt-0.5 flex-shrink-0" /> リラックスしたいのにできない</li>
+              </ul>
             </div>
+
           </div>
         </div>
       </section>
