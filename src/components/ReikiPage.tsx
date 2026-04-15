@@ -47,7 +47,7 @@ export default function ReikiPage({ activeTheme }: Props) {
             </p>
 
             <div className="my-12 rounded-2xl overflow-hidden shadow-lg">
-              <ImagePlaceholder src="/images/reiki.2.png" fallbackKeyword="hands,healing,light" className="w-full h-64 object-cover" alt="レイキヒーリング風景" />
+              <ImagePlaceholder src="/images/reiki.2.jpg" fallbackKeyword="hands,healing,light" className="w-full h-64 object-cover" alt="レイキヒーリング風景" />
             </div>
 
             <div className={`p-8 my-12 border transition-colors duration-500 ${activeTheme.classes.card}`}>

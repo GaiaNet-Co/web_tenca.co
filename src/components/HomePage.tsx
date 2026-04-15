@@ -107,7 +107,8 @@ export default function HomePage({ activeTheme, navigateTo }: Props) {
 
       {/* Profile Section */}
       <section className={`py-20 px-4 sm:px-6 lg:px-8 transition-colors duration-500 ${activeTheme.classes.sectionAlt}`}>
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto space-y-16">
+          {/* First Half: Image | Text */}
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden bg-gray-200 flex-shrink-0 flex items-center justify-center">
               <ImagePlaceholder src="/images/home.2.jpg" fallbackKeyword="woman,smile,nature" className="w-full h-full object-cover" alt="林 美加" />
@@ -127,19 +128,29 @@ export default function HomePage({ activeTheme, navigateTo }: Props) {
                   私自身もかつて、ストレスにより体調を崩し、 心と身体のバランスを大きく崩した経験があります。
                   その経験を通してたどり着いたのが、 身体・こころ・エネルギーを含めた“全体の調和”を整えることの大切さでした。
                 </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Second Half: Text | Image */}
+          <div className="flex flex-col md:flex-row-reverse gap-12 items-center">
+            <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden bg-gray-200 flex-shrink-0 flex items-center justify-center">
+              <ImagePlaceholder src="/images/home.3.jpg" fallbackKeyword="massage,healing,nature" className="w-full h-full object-cover" alt="施術の様子" />
+            </div>
+            <div>
+              <div className="space-y-4 opacity-90 leading-relaxed">
                 <p>
                   ゆるりらの施術は、 単なるリラクゼーションや一時的な改善ではありません。
                   本来の状態へと還り、内側から整い続ける土台をつくること。 それを目的としています。
                   身体がゆるむことで呼吸が深まり、 思考が静まり、 本来の感覚が戻っていく。
                   無理に頑張らなくても、 自然と整い、次のステージへと進める状態へ変わっていきます。
                 </p>
-
                 <p>
                   施術では、 身体の緊張をゆるめるだけでなく、 こころや思考へのアプローチ、エネルギーの調整まで含め、その方にとって本当に必要なケアを見極めて行います。
                   そのため、 流れ作業のような施術は行っていません。
-                  お一人おひとりに、深く向き合う時間を大切にしています。
-                  ✔ 長年の不調を根本から整えたい方 ✔ 表面的なケアでは満足できなかった方
-                  ✔ 自分自身を本質から整えたい方 ✔ 次のステージへ進みたいと感じている方
+                  お一人おひとりに、深く向き合う時間を大切にしています。<br />
+                  ✔ 長年の不調を根本から整えたい方 ✔ 表面的なケアでは満足できなかった方<br />
+                  ✔ 自分自身を本質から整えたい方 ✔ 次のステージへ進みたいと感じている方<br />
                   そのような方にこそ、お越しいただきたいと考えています。
                 </p>
                 <p>
@@ -336,7 +347,6 @@ export default function HomePage({ activeTheme, navigateTo }: Props) {
               </p>
               <div className="opacity-80 space-y-2">
                 <p>滋賀県草津市ＸＸＸＸＸ</p>
-                <p>大阪市中央区ＸＸＸＸＸ</p>
               </div>
             </div>
           </div>

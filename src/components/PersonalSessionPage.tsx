@@ -51,25 +51,66 @@ export default function PersonalSessionPage({ activeTheme }: Props) {
             メニュー詳細
           </h2>
 
-          <div className={`p-8 border transition-colors duration-500 ${activeTheme.classes.card}`}>
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
-              <div>
-                <h3 className="text-2xl font-bold mb-2">オンライン個人セッション</h3>
-                <p className="opacity-80">Zoom等を使用したオンライン対話</p>
+          <div className="grid grid-cols-1 gap-12">
+            {/* セルフメンテナンス */}
+            <div className={`overflow-hidden border transition-colors duration-500 flex flex-col md:flex-row ${activeTheme.classes.card}`}>
+              <div className="p-8 md:w-1/2 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-2xl font-bold mb-6">インナーチャイルドの解放と手放し</h3>
+                  <p className="opacity-90 leading-relaxed mb-8">
+                    幼少期の体験や記憶から生まれたインナーチャイルドに優しく向き合い、心に残る感情や思い込みを解放していく60分の講座です。手放しのワークを通して、本来の自分らしさと心の軽やかさを取り戻します。
+                  </p>
+                </div>
+                <div>
+                  <div className="border-t border-current opacity-20 mb-4"></div>
+                  <p className="text-2xl font-bold text-right tracking-wider">13,000円</p>
+                </div>
               </div>
-              <div className="mt-4 md:mt-0 text-right">
-                <p className="text-xl font-bold">15,000円</p>
-                <p className="text-sm opacity-70">60分</p>
+              <div className="md:w-1/2 h-64 md:h-auto">
+                <ImagePlaceholder src="/images/innerchild.jpg" fallbackKeyword="woman,stretching,outdoor" className="w-full h-full object-cover" alt="セルフメンテナンス" />
               </div>
             </div>
 
-            <div className="space-y-4 opacity-90">
-              <p>
-                遠方の方や、ご自宅からリラックスして受けたい方におすすめです。<br />
-                画面越しでもエネルギーの状態をしっかりと把握し、必要なメッセージやアドバイスをお伝えします。
-              </p>
+            {/* 頭蓋骨調整 */}
+            <div className={`overflow-hidden border transition-colors duration-500 flex flex-col md:flex-row ${activeTheme.classes.card}`}>
+              <div className="p-8 md:w-1/2 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-2xl font-bold mb-6">メンタルブロック外し</h3>
+                  <p className="opacity-90 leading-relaxed mb-8">
+                    知らないうちに心に作られた思い込みや恐れなどのメンタルブロックに気づき、やさしく解放していく60分の講座です。ワークを通して制限を手放し、本来の可能性や行動力を引き出していきます。
+                  </p>
+                </div>
+                <div>
+                  <div className="border-t border-current opacity-20 mb-4"></div>
+                  <p className="text-2xl font-bold text-right tracking-wider">13,000円</p>
+                </div>
+              </div>
+              <div className="md:w-1/2 h-64 md:h-auto">
+                <ImagePlaceholder src="/images/mentalblock.jpg" fallbackKeyword="head,massage,relax" className="w-full h-full object-cover" alt="頭蓋骨調整" />
+              </div>
+            </div>
+
+            {/* ボディベーシック */}
+            <div className={`overflow-hidden border transition-colors duration-500 flex flex-col md:flex-row ${activeTheme.classes.card}`}>
+              <div className="p-8 md:w-1/2 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-2xl font-bold mb-6">【無条件の愛の講座】</h3>
+                  <p className="opacity-90 leading-relaxed mb-8">
+                    詳細はお問い合わせください
+                  </p>
+                </div>
+                <div>
+                  <div className="border-t border-current opacity-20 mb-4"></div>
+                  <p className="opacity-80 mb-4">90分 x 12回のコースとなります</p>
+                  <p className="text-2xl font-bold text-right tracking-wider">500,000円</p>
+                </div>
+              </div>
+              <div className="md:w-1/2 h-64 md:h-auto">
+                <ImagePlaceholder src="/images/love.jpg" fallbackKeyword="meditation,incense,relax" className="w-full h-full object-cover" alt="ボディベーシック" />
+              </div>
             </div>
           </div>
+          
         </div>
       </section>
     </>
