@@ -312,7 +312,7 @@ export default function HomePage({ activeTheme, navigateTo }: Props) {
                 お気軽にお問い合わせください。あなたの声をお聞きすることを楽しみにしています。
               </p>
               <a href="mailto:info@tenca.co" className="underline hover:opacity-80 transition-opacity">
-                info@tenca.co
+                yururira.tenca@gmail.com
               </a>
             </div>
 
@@ -327,7 +327,7 @@ export default function HomePage({ activeTheme, navigateTo }: Props) {
               <p className="opacity-80 mb-6 leading-relaxed">
                 こちらより直接ご質問をどうぞ。お待ちしています。
               </p>
-              <a href="#" className="underline hover:opacity-80 transition-opacity">
+              <a href="https://lin.ee/66Z7AaE" className="underline hover:opacity-80 transition-opacity">
                 LINEで問い合わせる
               </a>
             </div>
@@ -346,7 +346,7 @@ export default function HomePage({ activeTheme, navigateTo }: Props) {
                 お気軽にお立ち寄りください。
               </p>
               <div className="opacity-80 space-y-2">
-                <p>滋賀県草津市ＸＸＸＸＸ</p>
+                <p>滋賀県草津市野村５</p>
               </div>
             </div>
           </div>
